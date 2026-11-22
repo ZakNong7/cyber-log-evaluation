@@ -8,7 +8,7 @@
 [![Reproducibility: 100% Verified](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)]()
 
 Repositori resmi kode sumber, artefak visual, dan data replikasi untuk artikel ilmiah:
-> **Ahmad Zakky Nurfauzan & Muhammad Fachri**, *"Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan"*, **Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)**, 2026.
+> **Ahmad Zakky Nurfauzan**, *"Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan"*, **Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)**, 2026.
 
 ---
 
