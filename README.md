@@ -149,7 +149,7 @@ Jika Anda memanfaatkan kode, data, atau kerangka kerja metodologi ini dalam pene
 
 ```bibtex
 @article{nurfauzan2026evaluasi,
-  author  = {Ahmad Zakky Nurfauzan and Muhammad Fachri},
+  author  = {Ahmad Zakky Nurfauzan},
   title   = {Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan},
   journal = {Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)},
   volume  = {12},
@@ -161,7 +161,7 @@ Jika Anda memanfaatkan kode, data, atau kerangka kerja metodologi ini dalam pene
 ```
 
 Format IEEE:
-> A. Z. Nurfauzan dan M. Fachri, "Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan," *Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)*, vol. 12, no. 1, 2026.
+> A. Z. Nurfauzan, "Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan," *Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)*.
 
 ---
 
