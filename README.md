@@ -143,28 +143,6 @@ python generate_all_figures.py
 
 ---
 
-## 📚 Sitasi Ilmiah (*Citation*)
-
-Jika Anda memanfaatkan kode, data, atau kerangka kerja metodologi ini dalam penelitian Anda, silakan sitasi artikel kami:
-
-```bibtex
-@article{nurfauzan2026evaluasi,
-  author  = {Ahmad Zakky Nurfauzan},
-  title   = {Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan},
-  journal = {Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)},
-  volume  = {12},
-  number  = {1},
-  year    = {2026},
-  doi     = {10.28932/jutisi.v12i1.xxxx},
-  url     = {https://journal.maranatha.edu/index.php/jutisi}
-}
-```
-
-Format IEEE:
-> A. Z. Nurfauzan, "Evaluasi Kritis Dataset Keamanan Siber Publik untuk Peramalan dan Klasifikasi Serangan," *Jurnal Teknik Informatika dan Sistem Informasi (JuTISI)*.
-
----
-
 ## 📄 Lisensi (*License*)
 
 Kode sumber dan naskah dalam repositori ini dilisensikan di bawah [GNU General Public License v3.0](LICENSE). Dataset asli dilindungi oleh lisensi publik open-source Kaggle oleh [Team Incribo](https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks).
@@ -172,5 +150,5 @@ Kode sumber dan naskah dalam repositori ini dilisensikan di bawah [GNU General P
 ---
 
 ## ✉️ Kontak & Korespondensi
-- **Ahmad Zakky Nurfauzan** — [714250028@student.ulbi.ac.id](mailto:714250028@student.ulbi.ac.id)
+- **Ahmad Zakky Nurfauzan** — [ahmadzakky2862@gmail.com](mailto:ahmadzakky2862@gmail.com)
 - **Program Studi D4 Teknik Informatika**, Universitas Logistik dan Bisnis Internasional (ULBI), Bandung, Indonesia.
