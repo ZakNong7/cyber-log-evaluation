@@ -1,0 +1,316 @@
+TY  - JOUR
+TI  - A Hybrid Time Series Forecasting Model Combining ARIMA and Decision Trees to Detect Attacks in MITRE ATT&CK Labeled Zeek Log Data
+AU  - Freeman, Raymond
+AU  - Bagui, Sikha S.
+AU  - Bagui, Subhash C.
+AU  - Mink, Dustin
+AU  - Cameron, Sarah
+AU  - De Carvalho, Germano Correa Silva
+JO  - Electronics
+VL  - 15
+IS  - 4
+SP  - 871
+EP  - 871
+PY  - 2026
+DO  - 10.3390/electronics15040871
+ER  - 
+
+TY  - JOUR
+TI  - A New Time Series Dataset for Cyber-Threat Correlation, Regression and Neural-Network-Based Forecasting
+AU  - Sufi, Fahim
+JO  - Information
+VL  - 15
+IS  - 4
+SP  - 199
+EP  - 199
+PY  - 2024
+DO  - 10.3390/info15040199
+ER  - 
+
+TY  - JOUR
+TI  - A Novel Deep Learning Technique to Model and Predict the Spread of Cybersecurity Threats
+AU  - Ali, Amani Ali Ahmed
+AU  - Zahary, Ammar Thabit
+AU  - Ali, Talal Ahmed
+JO  - IEEE Access
+VL  - 14
+SP  - 35410
+EP  - 35426
+PY  - 2026
+DO  - 10.1109/ACCESS.2026.3670355
+ER  - 
+
+TY  - JOUR
+TI  - Analysis of statistical properties of variables in log data for advanced anomaly detection in cyber security
+AU  - Wurzenberger, Markus
+AU  - Höld, Georg
+AU  - Landauer, Max
+AU  - Skopik, Florian
+JO  - Computers & Security
+VL  - 137
+SP  - 103631
+EP  - 103631
+PY  - 2024
+DO  - 10.1016/j.cose.2023.103631
+ER  - 
+
+TY  - JOUR
+TI  - Rapid Forecasting of Cyber Events Using Machine Learning-Enabled Features
+AU  - Ahmed, Yasir
+AU  - Azad, Muhammad Azuan
+AU  - Asyhari, Taufiq
+JO  - Information
+VL  - 15
+IS  - 1
+SP  - 36
+EP  - 36
+PY  - 2024
+DO  - 10.3390/info15010036
+ER  - 
+
+TY  - JOUR
+TI  - A Data-Centric Network Traffic Dataset for Anomaly Detection: Construction, Reproducible Pipeline, and Technical Validation
+AU  - Yagual, Darwin Q.
+AU  - Iglesias, Daniel F.
+AU  - Nóvoa, Francisco J.
+AU  - Garabato, Daniel
+JO  - Data
+VL  - 11
+IS  - 8
+SP  - 199
+EP  - 199
+PY  - 2026
+DO  - 10.3390/data11080199
+ER  - 
+
+TY  - JOUR
+TI  - Comparative Analysis of Anomaly Detection Approaches in Firewall Logs: Integrating Light-Weight Synthesis of Security Logs and Artificially Generated Attack Detection
+AU  - Komadina, Antonia
+AU  - Kovačević, Ivana
+AU  - Štengl, Bruno
+AU  - Groš, Stjepan
+JO  - Sensors
+VL  - 24
+IS  - 8
+SP  - 2636
+EP  - 2636
+PY  - 2024
+DO  - 10.3390/s24082636
+ER  - 
+
+TY  - JOUR
+TI  - Maintainable Log Datasets for Evaluation of Intrusion Detection Systems
+AU  - Landauer, Max
+AU  - Skopik, Florian
+AU  - Frank, Markus
+AU  - Hotwagner, Wolfgang
+AU  - Wurzenberger, Markus
+AU  - Rauber, Andreas
+JO  - IEEE Transactions on Dependable and Secure Computing
+VL  - 20
+IS  - 4
+SP  - 3466
+EP  - 3482
+PY  - 2023
+DO  - 10.1109/TDSC.2022.3201582
+ER  - 
+
+TY  - JOUR
+TI  - SIEVE: Generating a cybersecurity log dataset collection for SIEM event classification
+AU  - Artioli, Pierluigi
+AU  - Dentamaro, Vincenzo
+AU  - Galantucci, Simona
+AU  - Magrì, Antonio
+AU  - Pellegrini, Giovanni
+AU  - Semeraro, Giovanni
+JO  - Computer Networks
+VL  - 266
+SP  - 111330
+EP  - 111330
+PY  - 2025
+DO  - 10.1016/j.comnet.2025.111330
+ER  - 
+
+TY  - JOUR
+TI  - Comparative Analysis of Supervised and Unsupervised Learning for Intrusion Detection in Network Logs
+AU  - Castro, Pedro
+AU  - Santos, Fabio
+AU  - Lopes, Paulo
+JO  - Computation
+VL  - 14
+IS  - 4
+SP  - 92
+EP  - 92
+PY  - 2026
+DO  - 10.3390/computation14040092
+ER  - 
+
+TY  - JOUR
+TI  - Short-Window Micro-Behavioral Triage for High-Throughput Firewall Telemetry: Limits, Features, and Operational Feasibility
+AU  - Kesgin, Kadir
+AU  - Tümen, Volkan
+AU  - Akın, Erhan
+JO  - Sensors
+VL  - 26
+IS  - 14
+SP  - 4600
+EP  - 4600
+PY  - 2026
+DO  - 10.3390/s26144600
+ER  - 
+
+TY  - JOUR
+TI  - Efficient Based on Improved Random Forest Defense System Against Application-Layer DDoS Attacks
+AU  - He, Jin
+AU  - Fang, Wei
+AU  - Lan, Xiang
+AU  - Yang, Guang
+AU  - Chen, Zhi
+AU  - Chen, Yu
+AU  - Li, Ting
+AU  - Chen, Jian
+AU  - Li, Jun
+JO  - International Journal of Intelligent Systems
+VL  - 2024
+SP  - 9044391
+EP  - 9044391
+PY  - 2024
+DO  - 10.1155/2024/9044391
+ER  - 
+
+TY  - DATA
+TI  - Cyber Security Attacks
+AU  - Team Incribo
+PY  - 2023
+UR  - https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks
+ER  - 
+
+TY  - JOUR
+TI  - Challenges and Strategies in Forensic Investigation: Leveraging Technology for Digital Security Using Log/Event Analysis Method
+AU  - Nasution, Ahmad Y.
+AU  - Hartono, Hartono
+AU  - Rosnelly, Rika
+JO  - Jurnal Teknik Informatika
+VL  - 18
+IS  - 1
+SP  - 53
+EP  - 63
+PY  - 2025
+DO  - 10.15408/jti.v18i1.42815
+ER  - 
+
+TY  - JOUR
+TI  - Intrusion Detection Based on Sequential Information Preserving Log Embedding Methods and Anomaly Detection Algorithms
+AU  - Kim, Chanjun
+AU  - Jang, Minho
+AU  - Seo, Seungwan
+AU  - Park, Kyuhwan
+AU  - Kang, Pilsung
+JO  - IEEE Access
+VL  - 9
+SP  - 58088
+EP  - 58101
+PY  - 2021
+DO  - 10.1109/ACCESS.2021.3071763
+ER  - 
+
+TY  - JOUR
+TI  - Deep memory for deep threats: A novel architecture combining GRUs and deep learning models for IDS
+AU  - Alqhatani, Ali
+AU  - Mehmood, Rashid
+AU  - Amin, Rashid
+AU  - Alshehri, Mohammad S.
+AU  - Alshehri, Abdullah H.
+AU  - Asiri, Fahad
+JO  - PLoS ONE
+VL  - 20
+IS  - 10
+SP  - e0332752
+EP  - e0332752
+PY  - 2025
+DO  - 10.1371/journal.pone.0332752
+ER  - 
+
+TY  - JOUR
+TI  - LLM-driven Alert Correlation and Lifecycle Prediction with Threat Intelligence for Attack Forensics
+AU  - Lin, Ying-Dar
+AU  - Chang, Chia-Ying
+AU  - Sudyana, Dodi
+AU  - Lai, Yuan-Cheng
+AU  - Hwang, Ren-Hung
+AU  - Lin, Po-Ching
+AU  - Wu, Eric Hsiao-Kuang
+AU  - Lee, Wei-Bin
+JO  - IEEE Transactions on Machine Learning in Communications and Networking
+VL  - 4
+SP  - 1491
+EP  - 1512
+PY  - 2026
+DO  - 10.1109/TMLCN.2026.3736372
+ER  - 
+
+TY  - JOUR
+TI  - Detecting Reconnaissance and Discovery Tactics from the MITRE ATT&CK Framework in Zeek Conn Logs Using Spark's Machine Learning in the Big Data Framework
+AU  - Bagui, Sikha
+AU  - Mink, Dustin
+AU  - Bagui, Subhash
+AU  - Ghosh, Tirthankar
+AU  - McElroy, Thomas
+AU  - Paredes, Edward
+AU  - Khasnavis, Nihar
+AU  - Plenkers, Richard
+JO  - Sensors
+VL  - 22
+IS  - 20
+SP  - 7999
+EP  - 7999
+PY  - 2022
+DO  - 10.3390/s22207999
+ER  - 
+
+TY  - JOUR
+TI  - Predicting and mitigating cyber threats through data mining and machine learning
+AU  - Samia, Nusrat
+AU  - Saha, Sourav
+AU  - Haque, Amanul
+JO  - Computer Communications
+VL  - 228
+SP  - 107949
+EP  - 107949
+PY  - 2024
+DO  - 10.1016/j.comcom.2024.107949
+ER  - 
+
+TY  - JOUR
+TI  - HLD-DDoSDN: High and low-rates dataset-based DDoS attacks against SDN
+AU  - Bahashwan, Ahmad A.
+AU  - Anbar, Mohammed
+AU  - Manickam, Selvakumar
+AU  - Issa, Ghassan
+AU  - Aladaileh, Mohammad A.
+AU  - Alabsi, Basheer A.
+AU  - Rihan, Sara D. A.
+JO  - PLoS ONE
+VL  - 19
+IS  - 2
+SP  - e0297548
+EP  - e0297548
+PY  - 2024
+DO  - 10.1371/journal.pone.0297548
+ER  - 
+
+TY  - JOUR
+TI  - Performance and Structural Symmetry Evaluation of Machine Learning-Driven Intrusion Detection Systems in Software-Defined Networks
+AU  - Giri, Rohit
+AU  - Salama, Ashraf
+AU  - Saatchi, Reza
+AU  - Bagheri, Mahdi
+JO  - Symmetry
+VL  - 18
+IS  - 9
+SP  - 1433
+EP  - 1433
+PY  - 2026
+DO  - 10.3390/sym18091433
+ER  - 
+
