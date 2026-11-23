@@ -83,12 +83,15 @@ cyber-log-evaluation/
 │   ├── README.md                   # Dokumentasi atribut dan sumber dataset
 │   └── cybersecurity_attacks.csv   # Korpus data (40.000 log, 1.380 hari kalender)
 ├── figures/
-│   ├── fig1_alur_metodologi.png    # Gambar 1: Alur metodologi 4-fase (540+ DPI)
+│   ├── fig1_alur_metodologi.png    # Gambar 1: Alur metodologi 4-fase (SOLID FILL, 380+ DPI)
 │   ├── fig1_alur_metodologi.svg    # Format vektor master Gambar 1
 │   ├── fig1_alur_metodologi.html   # Sumber diagram HTML aksesibel
 │   ├── fig2_daily_acf.png          # Gambar 2: Deret waktu harian & plot ACF
 │   ├── fig3_forecast_test.png      # Gambar 3: Peramalan out-of-sample vs data riil
 │   └── fig4_confusion_matrix.png   # Gambar 4: Matriks kebingungan Random Forest
+├── manuscript/
+│   ├── Artikel_JuTISI_Ahmad_Zakky_Nurfauzan.pdf  # Naskah artikel versi final JuTISI (PDF)
+│   └── Artikel_JuTISI_Ahmad_Zakky_Nurfauzan.docx # Dokumen Word resmi (format IMRAD JuTISI)
 ├── LICENSE                         # GNU General Public License v3.0
 ├── pipeline_evaluasi_dataset.py    # Pipeline eksperimen empiris lengkap (Step 1 - 6)
 ├── generate_all_figures.py         # Generator visualisasi publikasi
