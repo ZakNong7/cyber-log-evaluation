@@ -1,100 +1,96 @@
-<svg viewBox="0 0 780 525" width="780" height="525" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram Alur Metodologi Modular 4-Fase">
+<svg viewBox="0 0 780 570" width="780" height="570" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram Alur Metodologi Modular 4-Fase Kerangka Evaluasi Empiris Bebas Kontaminasi Data">
   <defs>
     <marker id="arrow-dark" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#0f172a"/>
     </marker>
-    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <marker id="arrow-sky" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#0284c7"/>
     </marker>
   </defs>
 
-  <!-- Background Canvas: Pure Solid White -->
+  <!-- Canvas Solid Fill (Pure White) -->
   <rect width="100%" height="100%" fill="#ffffff"/>
 
   <!-- ==================================================== -->
-  <!-- CONNECTING ARROWS (Drawn behind cards)               -->
+  <!-- CONNECTING ARROWS                                    -->
   <!-- ==================================================== -->
-  <!-- Fase 1 -> Fase 2 -->
-  <line x1="390" y1="125" x2="390" y2="145" stroke="#0f172a" stroke-width="2.5" marker-end="url(#arrow-dark)"/>
-  
-  <!-- Fase 2 -> Fase 3 -->
-  <line x1="390" y1="250" x2="390" y2="270" stroke="#0284c7" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
-  
-  <!-- Fase 3 -> Fase 4 -->
-  <line x1="390" y1="380" x2="390" y2="400" stroke="#0284c7" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <line x1="390" y1="137" x2="390" y2="161" stroke="#0f172a" stroke-width="2.2" marker-end="url(#arrow-dark)"/>
+  <line x1="390" y1="273" x2="390" y2="297" stroke="#0284c7" stroke-width="2.2" marker-end="url(#arrow-sky)"/>
+  <line x1="390" y1="409" x2="390" y2="433" stroke="#0284c7" stroke-width="2.2" marker-end="url(#arrow-sky)"/>
 
   <!-- ==================================================== -->
-  <!-- FASE 1: Ingesti & Audit Distribusi                   -->
+  <!-- FASE 1: Ingesti Data & Audit Distribusi Statistik    -->
   <!-- ==================================================== -->
-  <g id="fase-1">
-    <rect x="25" y="20" width="730" height="105" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
-    <path d="M 25 26 Q 25 20 31 20 L 749 20 Q 755 20 755 26 L 755 50 L 25 50 Z" fill="#0f172a"/>
-    <text x="40" y="41" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="14.5" font-weight="bold" letter-spacing="0.02em">FASE 1: Ingesti Data &amp; Audit Distribusi Statistik (RQ1)</text>
+  <g id="card-fase-1">
+    <rect x="30" y="25" width="720" height="112" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="1.8"/>
+    <path d="M 30 31 Q 30 25 36 25 L 744 25 Q 750 25 750 31 L 750 53 L 30 53 Z" fill="#0f172a"/>
+    <text x="44" y="44" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 1: INGESTI DATA &amp; AUDIT DISTRIBUSI STATISTIK (RQ1)</text>
     
-    <circle cx="44" cy="67" r="3" fill="#0f172a"/>
-    <text x="56" y="71" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Korpus 40.000 log keamanan siber publik (rentang waktu 1.380 hari kalender, 25 atribut heterogen)</text>
+    <circle cx="48" cy="74" r="3" fill="#0f172a"/>
+    <text x="58" y="78" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Korpus 40.000 log keamanan siber publik (rentang waktu 1.380 hari kalender, 25 atribut heterogen)</text>
     
-    <circle cx="44" cy="85" r="3" fill="#0f172a"/>
-    <text x="56" y="89" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Audit integritas data &amp; eksplorasi batas pencilan IQR [LB, UB] (0 timestamp cacat, 0 baris duplikat)</text>
+    <circle cx="48" cy="97" r="3" fill="#0f172a"/>
+    <text x="58" y="101" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Audit integritas data &amp; eksplorasi batas pencilan IQR [LB, UB] (0 timestamp cacat, 0 baris duplikat)</text>
     
-    <circle cx="44" cy="103" r="3" fill="#0f172a"/>
-    <text x="56" y="107" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">13 Uji Goodness-of-Fit univariat (Chi-Square &amp; Kolmogorov-Smirnov) vs seragam (α_adj = 0,0038)</text>
+    <circle cx="48" cy="120" r="3" fill="#0f172a"/>
+    <text x="58" y="124" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">13 Uji Goodness-of-Fit univariat (Chi-Square &amp; Kolmogorov-Smirnov) vs seragam (α_adj = 0,0038)</text>
   </g>
 
   <!-- ==================================================== -->
-  <!-- FASE 2: Struktur Temporal                            -->
+  <!-- FASE 2: Karakterisasi Struktur Temporal Deret Waktu  -->
   <!-- ==================================================== -->
-  <g id="fase-2">
-    <rect x="25" y="145" width="730" height="105" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
-    <path d="M 25 151 Q 25 145 31 145 L 749 145 Q 755 145 755 151 L 755 175 L 25 175 Z" fill="#0f172a"/>
-    <text x="40" y="166" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="14.5" font-weight="bold" letter-spacing="0.02em">FASE 2: Karakterisasi Struktur Temporal Deret Waktu (RQ2)</text>
+  <g id="card-fase-2">
+    <rect x="30" y="161" width="720" height="112" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="1.8"/>
+    <path d="M 30 167 Q 30 161 36 161 L 744 161 Q 750 161 750 167 L 750 189 L 30 189 Z" fill="#0f172a"/>
+    <text x="44" y="180" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 2: KARAKTERISASI STRUKTUR TEMPORAL DERET WAKTU (RQ2)</text>
     
-    <circle cx="44" cy="192" r="3" fill="#0f172a"/>
-    <text x="56" y="196" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Agregasi frekuensi serangan harian deret waktu (DDoS, Malware, Intrusion) selama 1.380 hari</text>
+    <circle cx="48" cy="210" r="3" fill="#0f172a"/>
+    <text x="58" y="214" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Agregasi frekuensi serangan harian deret waktu (DDoS, Malware, Intrusion) selama 1.380 hari</text>
     
-    <circle cx="44" cy="210" r="3" fill="#0f172a"/>
-    <text x="56" y="214" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Uji dispersi Poisson (evaluasi rasio varians/rata-rata s²/x̄ ≈ 1 sebagai sifat proses tanpa memori)</text>
+    <circle cx="48" cy="233" r="3" fill="#0f172a"/>
+    <text x="58" y="237" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Uji dispersi Poisson (evaluasi rasio varians/rata-rata s²/x̄ ≈ 1 sebagai sifat proses tanpa memori)</text>
     
-    <circle cx="44" cy="228" r="3" fill="#0f172a"/>
-    <text x="56" y="232" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Analisis autokorelasi serial ACF (lag 1–20), uji portmanteau Ljung-Box, &amp; uji tren Mann-Kendall</text>
+    <circle cx="48" cy="256" r="3" fill="#0f172a"/>
+    <text x="58" y="260" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Analisis autokorelasi serial ACF (lag 1–20), uji portmanteau Ljung-Box, &amp; uji tren Mann-Kendall</text>
   </g>
 
   <!-- ==================================================== -->
-  <!-- FASE 3: Partisi Bebas Kontaminasi (Focal)           -->
+  <!-- FASE 3: Partisi Temporal Bebas Kontaminasi (FOCAL)    -->
   <!-- ==================================================== -->
-  <g id="fase-3">
-    <rect x="25" y="270" width="730" height="110" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="2.5"/>
-    <path d="M 25 276 Q 25 270 31 270 L 749 270 Q 755 270 755 276 L 755 302 L 25 302 Z" fill="#0284c7"/>
-    <text x="40" y="292" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="14.5" font-weight="bold" letter-spacing="0.02em">FASE 3: Protokol Partisi Temporal Bebas Kontaminasi (RQ2 &amp; RQ3)</text>
+  <g id="card-fase-3">
+    <rect x="30" y="297" width="720" height="112" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/>
+    <path d="M 30 303 Q 30 297 36 297 L 744 297 Q 750 297 750 303 L 750 325 L 30 325 Z" fill="#0284c7"/>
+    <text x="44" y="316" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 3: PROTOKOL PARTISI TEMPORAL BEBAS KONTAMINASI (RQ2 &amp; RQ3)</text>
     
-    <rect x="585" y="275" width="160" height="22" rx="4" fill="#ffffff"/>
-    <text x="665" y="291" fill="#0284c7" font-family="'Times New Roman', Georgia, serif" font-size="11" font-weight="bold" text-anchor="middle" letter-spacing="0.04em">★ KONTRIBUSI UTAMA</text>
+    <!-- Chip Badge -->
+    <rect x="580" y="301" width="160" height="20" rx="3" fill="#ffffff"/>
+    <text x="660" y="315" fill="#0284c7" font-family="'Times New Roman', Georgia, serif" font-size="10.5" font-weight="bold" text-anchor="middle" letter-spacing="0.03em">★ KONTRIBUSI UTAMA</text>
     
-    <circle cx="44" cy="319" r="3" fill="#0284c7"/>
-    <text x="56" y="323" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13" font-weight="bold">Pembagian temporal kronologis murni 80/20 tanpa pengacakan (strictly no random shuffling)</text>
+    <circle cx="48" cy="346" r="3" fill="#0284c7"/>
+    <text x="58" y="350" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5" font-weight="bold">Pembagian temporal kronologis murni 80/20 tanpa pengacakan (strictly no random shuffling)</text>
     
-    <circle cx="44" cy="337" r="3" fill="#0284c7"/>
-    <text x="56" y="341" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Data latih: 1.104 hari (2020 s.d. 8 Jan 2023) | Data uji unseen: 276 hari (9 Jan s.d. 11 Okt 2023)</text>
+    <circle cx="48" cy="369" r="3" fill="#0284c7"/>
+    <text x="58" y="373" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Data latih: 1.104 hari (2020 s.d. 8 Jan 2023) | Data uji unseen: 276 hari (9 Jan s.d. 11 Okt 2023)</text>
     
-    <circle cx="44" cy="355" r="3" fill="#0284c7"/>
-    <text x="56" y="359" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Penskalaan train-only bebas kontaminasi &amp; validasi silang walk-forward (expanding window) 5-lipatan</text>
+    <circle cx="48" cy="392" r="3" fill="#0284c7"/>
+    <text x="58" y="396" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Penskalaan train-only bebas kontaminasi &amp; validasi silang walk-forward (expanding window) 5-lipatan</text>
   </g>
 
   <!-- ==================================================== -->
-  <!-- FASE 4: Evaluasi vs Baseline                         -->
+  <!-- FASE 4: Evaluasi Model vs Baseline Pembanding        -->
   <!-- ==================================================== -->
-  <g id="fase-4">
-    <rect x="25" y="400" width="730" height="105" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
-    <path d="M 25 406 Q 25 400 31 400 L 749 400 Q 755 400 755 406 L 755 430 L 25 430 Z" fill="#0f172a"/>
-    <text x="40" y="421" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="14.5" font-weight="bold" letter-spacing="0.02em">FASE 4: Evaluasi Model vs Baseline Pembanding Objektif (RQ2 &amp; RQ3)</text>
+  <g id="card-fase-4">
+    <rect x="30" y="433" width="720" height="112" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="1.8"/>
+    <path d="M 30 439 Q 30 433 36 433 L 744 433 Q 750 433 750 439 L 750 461 L 30 461 Z" fill="#0f172a"/>
+    <text x="44" y="452" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 4: EVALUASI MODEL VS BASELINE PEMBANDING OBJEKTIF (RQ2 &amp; RQ3)</text>
     
-    <circle cx="44" cy="447" r="3" fill="#0f172a"/>
-    <text x="56" y="451" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Peramalan: Polinomial (Ordo 1–3) vs Baseline Naif Rata-rata Latih, Nilai Akhir, &amp; Persistence</text>
+    <circle cx="48" cy="482" r="3" fill="#0f172a"/>
+    <text x="58" y="486" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Peramalan: Polinomial (Ordo 1–3) vs Baseline Naif Rata-rata Latih, Nilai Akhir, &amp; Persistence</text>
     
-    <circle cx="44" cy="465" r="3" fill="#0f172a"/>
-    <text x="56" y="469" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Evaluasi R² out-of-sample data uji unseen (pembuktian divergensi ekstrapolasi polinomial R² ≤ 0)</text>
+    <circle cx="48" cy="505" r="3" fill="#0f172a"/>
+    <text x="58" y="509" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Evaluasi R² out-of-sample data uji unseen (pembuktian divergensi ekstrapolasi polinomial R² ≤ 0)</text>
     
-    <circle cx="44" cy="483" r="3" fill="#0f172a"/>
-    <text x="56" y="487" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="13">Klasifikasi: Random Forest (300 pohon) vs Baseline Acak (1/3) &amp; Uji Binomial Tepat (p > 0,35)</text>
+    <circle cx="48" cy="528" r="3" fill="#0f172a"/>
+    <text x="58" y="532" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Klasifikasi: Random Forest (300 pohon) vs Baseline Acak (1/3) &amp; Uji Binomial Tepat (p &gt; 0,35)</text>
   </g>
 </svg>
