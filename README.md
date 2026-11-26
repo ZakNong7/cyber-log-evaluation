@@ -3,7 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Journal: JuTISI](https://img.shields.io/badge/Journal-JuTISI%20(SINTA%203)-success.svg)](https://journal.maranatha.edu/index.php/jutisi)
+[![Journal: JuTISI](https://img.shields.io/badge/Journal-JuTISI%2(SINTA%23)-success.svg)](https://journal.maranatha.edu/index.php/jutisi)
 [![Reproducibility: 100% Verified](https://img.shields.io/badge/Reproducibility-100%25%20Verified-brightgreen.svg)]()
 
 Repositori resmi kode sumber, artefak visual, dan data replikasi untuk artikel ilmiah:
