@@ -14,14 +14,14 @@ Repositori resmi kode sumber, artefak visual, dan data replikasi untuk artikel i
 
 ## 📌 Ringkasan Eksekutif (*Executive Summary*)
 
-Penerapan pembelajaran mesin (*Machine Learning*) dan peramalan deret waktu pada log keamanan siber berkembang pesat untuk mitigasi insiden siber secara proaktif. Namun, kelemahan metodologis yang meluas di literatur—terutama **kontaminasi data (*data leakage*)** akibat pengacakan temporal (*random shuffling*), ketiadaan **baseline pembanding naif**, dan minimnya **audit statistik distribusi dataset**—berisiko menghasilkan estimasi performa semu yang menyesatkan.
+Penerapan pembelajaran mesin (*Machine Learning*) dan peramalan deret waktu pada log keamanan siber berkembang pesat untuk mitigasi insiden siber secara proaktif. Namun, kelemahan metodologis yang meluas di literatur—terutama **pencampuran data latih-uji (*data leakage*)** akibat pengacakan temporal (*random shuffling*), ketiadaan **baseline pembanding naif**, dan minimnya **audit statistik distribusi dataset**—berisiko menghasilkan estimasi performa semu yang menyesatkan.
 
-Repositori ini menyediakan kerangka kerja evaluasi empiris diagnostik bebas kontaminasi data (*leakage-free evaluation framework*) terhadap dataset publik populer **Cyber Security Attacks** (Kaggle Incribo, 40.000 log, 1.380 hari kalender).
+Repositori ini menyediakan kerangka kerja evaluasi empiris diagnostik tanpa pencampuran data latih-uji (*leakage-free evaluation framework*) terhadap dataset publik populer **Cyber Security Attacks** (Kaggle Incribo, 40.000 log, 1.380 hari kalender).
 
 ### Temuan Empiris Utama:
 1. **Karakteristik Data Sintetis:** 12 dari 13 variabel fitur terbukti konsisten dengan distribusi seragam acak (*uniform distribution*) di bawah uji *Goodness-of-Fit* Chi-Square dan Kolmogorov-Smirnov dengan koreksi Bonferroni ($\alpha_{adj} = 0,0038$), dengan 0 pencilan kontinu.
 2. **Proses Poisson Nir-Memori:** Frekuensi serangan harian konsisten dengan proses Poisson homogen tanpa memori ($\text{Varians} / \text{Mean} \approx 1$; uji Ljung-Box $p > 0,05$), menandakan ketiadaan autokorelasi serial maupun tren deterministik nyata.
-3. **Patahan Ilusi Peramalan ($R^2 \le 0$):** Seluruh model regresi polinomial (derajat 1–3) menghasilkan nilai $R^2$ *out-of-sample* negatif ($R^2 \le 0$, hingga $-3,24$ pada validasi silang *walk-forward* 5-lipatan), membantah klaim literatur sebelumnya ($R^2 = 0,91$) yang timbul akibat kontaminasi data.
+3. **Patahan Ilusi Peramalan ($R^2 \le 0$):** Seluruh model regresi polinomial (derajat 1–3) menghasilkan nilai $R^2$ *out-of-sample* negatif ($R^2 \le 0$, hingga $-3,24$ pada validasi silang *walk-forward* 5-lipatan), membantah klaim literatur sebelumnya ($R^2 = 0,91$) yang timbul akibat pencampuran data latih-uji.
 4. **Klasifikasi Setara Tebakan Acak:** Akurasi Random Forest multi-kelas (~0,33) tidak berbeda secara signifikan dari tebakan acak seragam ($1/3$) (uji binomial eksak $p > 0,35$).
 
 ---
@@ -50,7 +50,7 @@ Alur kerja penelitian dirancang secara modular dan dapat direplikasi secara penu
                                          │
                                          ▼
 +-----------------------------------------------------------------------------------+
-| FASE 3: PROTOKOL PARTISI TEMPORAL BEBAS KONTAMINASI (RQ2 & RQ3) ★ KONTRIBUSI UTAMA|
+| FASE 3: PROTOKOL PEMISAHAN DATA MURNI (RQ2 & RQ3)                ★ KONTRIBUSI UTAMA|
 | - Pembagian temporal kronologis 80/20 tanpa peracakan (strictly no shuffling)     |
 | - Data latih: 1.104 hari (2020 s.d. 8 Jan 2023) | Data uji: 276 hari (s.d. Okt)  |
 | - Penskalaan fitur & batas atas IQR clipping dihitung murni train-only            |

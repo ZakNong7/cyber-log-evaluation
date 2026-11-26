@@ -1,4 +1,4 @@
-<svg viewBox="0 0 780 570" width="780" height="570" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram Alur Metodologi Modular 4-Fase Kerangka Evaluasi Empiris Bebas Kontaminasi Data">
+<svg viewBox="0 0 780 570" width="780" height="570" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram Alur Metodologi Modular 4-Fase Kerangka Evaluasi Empiris Dengan Pemisahan Data Murni">
   <defs>
     <marker id="arrow-dark" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#0f172a"/>
@@ -55,12 +55,12 @@
   </g>
 
   <!-- ==================================================== -->
-  <!-- FASE 3: Partisi Temporal Bebas Kontaminasi (FOCAL)    -->
+  <!-- FASE 3: Pemisahan Data Murni & Terisolasi (FOCAL)    -->
   <!-- ==================================================== -->
   <g id="card-fase-3">
     <rect x="30" y="297" width="720" height="112" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/>
     <path d="M 30 303 Q 30 297 36 297 L 744 297 Q 750 297 750 303 L 750 325 L 30 325 Z" fill="#0284c7"/>
-    <text x="44" y="316" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 3: PROTOKOL PARTISI TEMPORAL BEBAS KONTAMINASI (RQ2 &amp; RQ3)</text>
+    <text x="44" y="316" fill="#ffffff" font-family="'Times New Roman', Georgia, serif" font-size="13.5" font-weight="bold" letter-spacing="0.02em">FASE 3: PROTOKOL PEMISAHAN DATA MURNI (RQ2 &amp; RQ3)</text>
     
     <!-- Chip Badge -->
     <rect x="580" y="301" width="160" height="20" rx="3" fill="#ffffff"/>
@@ -73,7 +73,7 @@
     <text x="58" y="373" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Data latih: 1.104 hari (2020 s.d. 8 Jan 2023) | Data uji unseen: 276 hari (9 Jan s.d. 11 Okt 2023)</text>
     
     <circle cx="48" cy="392" r="3" fill="#0284c7"/>
-    <text x="58" y="396" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Penskalaan train-only bebas kontaminasi &amp; validasi silang walk-forward (expanding window) 5-lipatan</text>
+    <text x="58" y="396" fill="#0f172a" font-family="'Times New Roman', Georgia, serif" font-size="12.5">Penskalaan train-only terisolasi &amp; validasi silang walk-forward (expanding window) 5-lipatan</text>
   </g>
 
   <!-- ==================================================== -->
